@@ -1,0 +1,16 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 500MB
+
+logging:
+  level:
+    '[com.skyplor.meterreader]': INFO
+    '[org.springframework.web]': WARN
+
+server:
+  port: 8080
+  error:
+    include-message: always
+    include-binding-errors: always
